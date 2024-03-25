@@ -432,17 +432,17 @@ start of  footer */
         font-size: 10px;
     }
     #about p{
-        font-size: 13px;
+        font-size: 15px;
         width: 150px;
     }
     .form{
-        width:50% ;
+        width:80%;
     }
     .form input{
-        width: 100px;
+        width: 300px;
     }
     .form textarea{
-        width: 100px;
+        width: 300px;
     }
     .form .submit{
         margin-right: 95px;
