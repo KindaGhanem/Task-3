@@ -25,7 +25,7 @@
     align-items: flex-end;
     flex-direction: row;
     font-size: 20px;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 .list a{
     color: white;
@@ -111,7 +111,7 @@ start of hero */
 .hero p{
     color: white;
     margin-top: 20px;
-    font-size: 17px;
+    font-size: 23px;
 }
 
 /* end of hero
@@ -352,10 +352,10 @@ start of  footer */
 }
 @media (min-width:769px) and (max-width:992px) {
     .navbar{
-        height: 100px;
         display: flex;
         justify-content: center;
         align-items: center;
+
     }
 }
 @media (min-width:401px) and (max-width:768px){
@@ -363,12 +363,15 @@ start of  footer */
         font-size: 15px;
     }
     .navbar{
-        height: 100px;
+        height: 60px;
+        justify-content: center;
+        align-items: center;
+    }
+    .navbar h1{
+        margin: 5px;
     }
     .list{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
+        margin: 0;
     }
     .list a:hover{
         padding: 5px;
@@ -396,58 +399,83 @@ start of  footer */
 }
 @media (max-width:400px){
     .list a{
-        font-size: 13px;
+        font-size: 15px;
+        margin: 15px;
     }
     .navbar h1{
-        font-size: 19px;
+        font-size: 30px;
+        margin: 0;
     }
     .navbar{
-        height: 150px;
+        /* height: 150px; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     .list{
         display: flex;
-        flex-direction: column;
         justify-content : center;
+        align-items: center;
     }
     .list a:hover{
         padding: 5px;
     }
     .hero p{
-        width: 300px;
-        font-size: 15px;
+        font-size: 20px;
         text-align: center;
+    }
+    #portfolio .first{
+        font-size: 30px;
     }
     .divid{
         background-color: rgb(51, 143, 143);
-        width: 200px;
+        width: 298px;
+    }
+    .hero .radius img{
+        bottom: 10px;
+    }
+    .radius{
+        top: 3px;
     }
     .divid img{
-        width: 99%;
+        width: 90%;
     }
     .hero h1{
-        width: max-content;
-        font-size: 20px;
+        margin-top: 30px;
+        font-size: 40px;
     }
-    .hero p{
-        font-size: 10px;
+    .title-about , .title-contact{
+        font-size: 30px;
     }
     #about p{
-        font-size: 15px;
-        width: 150px;
+        font-size: 20px;
+        text-align: start;
+        margin-left: 34px;
+    }
+    .free button{
+        font-size: 20px;
     }
     .form{
-        width:80%;
+        width:350px;
+        padding: 12px;
     }
     .form input{
-        width: 300px;
+        width: 100%;
     }
     .form textarea{
-        width: 300px;
+        width: 100%;
     }
     .form .submit{
-        margin-right: 95px;
+        margin-left: 70px;
     }
     .copy p{
-        width: 180px;
+        width: 200px;
+        font-size: 20px;
+    }
+    .end div{
+        width: 80%;
+        font-size: 20px;
+        margin-left: 34px;
     }
 }
